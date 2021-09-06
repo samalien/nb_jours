@@ -36,7 +36,7 @@
      <rect>
       <x>450</x>
       <y>40</y>
-      <width>312</width>
+      <width>321</width>
       <height>211</height>
      </rect>
     </property>
@@ -46,7 +46,7 @@
      <rect>
       <x>70</x>
       <y>40</y>
-      <width>312</width>
+      <width>321</width>
       <height>211</height>
      </rect>
     </property>
@@ -54,9 +54,9 @@
    <widget class="QLineEdit" name="nb">
     <property name="geometry">
      <rect>
-      <x>220</x>
-      <y>280</y>
-      <width>411</width>
+      <x>290</x>
+      <y>270</y>
+      <width>211</width>
       <height>61</height>
      </rect>
     </property>
@@ -66,7 +66,7 @@
      </font>
     </property>
     <property name="text">
-     <string/>
+     <string>              </string>
     </property>
     <property name="readOnly">
      <bool>true</bool>
@@ -93,9 +93,9 @@
    <widget class="QLineEdit" name="lineEdit">
     <property name="geometry">
      <rect>
-      <x>150</x>
+      <x>70</x>
       <y>10</y>
-      <width>121</width>
+      <width>321</width>
       <height>31</height>
      </rect>
     </property>
@@ -105,10 +105,10 @@
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">border-color: rgb(255, 255, 255);</string>
+     <string notr="true">background-color: rgb(240, 240, 240);</string>
     </property>
     <property name="text">
-     <string>Date 1</string>
+     <string>                    Date 1</string>
     </property>
     <property name="readOnly">
      <bool>true</bool>
@@ -117,9 +117,9 @@
    <widget class="QLineEdit" name="lineEdit_2">
     <property name="geometry">
      <rect>
-      <x>530</x>
+      <x>450</x>
       <y>10</y>
-      <width>121</width>
+      <width>321</width>
       <height>31</height>
      </rect>
     </property>
@@ -129,15 +129,48 @@
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">border-color: rgb(255, 255, 255);</string>
+     <string notr="true">border-color: rgb(255, 255, 255);
+background-color: rgb(240, 240, 240);</string>
     </property>
     <property name="text">
-     <string>Date 2</string>
+     <string>                     Date 2</string>
     </property>
     <property name="readOnly">
      <bool>true</bool>
     </property>
    </widget>
+   <widget class="QLineEdit" name="lineEdit_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>270</y>
+      <width>491</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(240, 240, 240);
+border-color: rgb(240, 240, 240);</string>
+    </property>
+    <property name="text">
+     <string>Le nombre de jours est :</string>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <zorder>lineEdit_3</zorder>
+   <zorder>date2</zorder>
+   <zorder>date1</zorder>
+   <zorder>nb</zorder>
+   <zorder>pushButton</zorder>
+   <zorder>lineEdit</zorder>
+   <zorder>lineEdit_2</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
